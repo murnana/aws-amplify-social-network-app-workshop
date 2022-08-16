@@ -98,7 +98,7 @@ amplify env add
 
 `? Do you want to use an existing environment?`と訊かれたら`No`を入力し Enter を押してください。`? Enter a name for the environment`には`design`を入力します。以降は、デフォルトの選択肢で Enter を押下します。
 
-`amplify env list`で staging 環境の設定が作成されていることを確認します。
+`amplify env list`で design 環境の設定が作成されていることを確認します。
 
 ```sh
 amplify env list

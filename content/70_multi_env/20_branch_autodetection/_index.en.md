@@ -104,7 +104,7 @@ When you are asked `? Do you want to use an existing environment?`, then enter `
 
 For `? Enter a name for the environment`, enter `design`. After that, you can answer with default options for all questions.
 
-Confirm that the staging environment has been created by running `amplify env list` command.
+Confirm that the design environment has been created by running `amplify env list` command.
 
 ```sh
 amplify env list
