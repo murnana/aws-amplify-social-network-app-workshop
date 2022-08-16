@@ -155,6 +155,27 @@ const App = () => {
 export default App;
 ```
 
+1. Replace the code in `./src/index.js` file with the following code (please delete all the original code).
+```js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+```
+
 {{% notice tip%}}
 `Authenticator` prompts you for a phone number by default. You can skip the phone number input by specifying `formFields`.
 {{% /notice%}}
