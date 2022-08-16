@@ -150,6 +150,27 @@ const App = () => {
 export default App;
 ```
 
+1. `./src/index.js` の内容を以下に書き換えてください(元あったコードは全て削除してください)。
+```js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+```
+
 {{% notice tip %}}
 デフォルトでは電話番号の入力フォームが表示されますが、今回は必要ないため、`formFields`を指定することで非表示にしています。
 {{% /notice %}}
