@@ -39,7 +39,7 @@ For `? Enter a name for the environment`, please enter `staging`. After that, yo
 
 After a while, you see `Initialized your environment successfully.`, and then the process is done.
 
-Please run `amplify env list` again. There is a `production` environment on the list. The one with "\*" is the current environment where you are now.
+Please run `amplify env list` again. There is a `staging` environment on the list. The one with "\*" is the current environment where you are now.
 
 ```null
 $ amplify env list
