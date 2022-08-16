@@ -38,7 +38,7 @@ amplify env add
 
 しばらくして`Initialized your environment successfully.`と表示されれば処理は完了です。
 
-もう一度、`amplify env list`を実行してみましょう。「production」環境が追加されていることが確認できます。「\*」がついているのが現在の環境です。
+もう一度、`amplify env list`を実行してみましょう。「staging」環境が追加されていることが確認できます。「\*」がついているのが現在の環境です。
 
 ```null
 $ amplify env list
